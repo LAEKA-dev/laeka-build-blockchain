@@ -99,7 +99,7 @@ class ChooseProductPage extends React.Component {
             <div className='ibm-col-2-1 ibm-col-medium-5-3 ibm-col-small-1-1'>
               <div className='ibm-column-form'>
                 <p>
-                  <label><FormattedMessage id='Product Brand' />:</label>
+                  <label><FormattedMessage id='Pet Name' />:</label>
                   <span>
                     <input type='text' readOnly value={productInfo.brand} />
                   </span>
