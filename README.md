@@ -6,7 +6,7 @@ This project showcases the use of blockchain in insurance domain for claim proce
 
 Audience level : Intermediate Developers
 
-## Included Components
+## Included Components test
 * Hyperledger Fabric
 * Docker
 
