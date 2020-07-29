@@ -11,7 +11,7 @@ html(lang='en')
     script(src='/js/common.bundle.js')
     script(src='/socket.io/socket.io.js')
     link(rel='alternate', href='?applang=en', hreflang='en-us')
-    link(rel='alternate', href='?applang=de', hreflang='de-de')
+    link(rel='alternate', href='?applang=fr', hreflang='fr-fr')
     include _favicon
     block header_exts
   body#ibm-com.ibm-type
@@ -19,10 +19,7 @@ html(lang='en')
       #ibm-masthead(role='banner', aria-label='IBM')
         #ibm-mast-options
           ul(role='toolbar', aria-labelledby='ibm-masthead')
-        #ibm-universal-nav
-          #ibm-home
-            a(href='/') IBM&reg;
-          ul#ibm-menu-links(role='toolbar', aria-label='Site map')
+       
     #ibm-content-wrapper
       header
         .ibm-sitenav-menu-container
@@ -66,8 +63,8 @@ html(lang='en')
             select#region-selector(style='width: 100%;')
               option(value='', selected) &nbsp;
               option(value='en') English
-              option(value='de') Deutsch
-        #ibm-footer
+              option(value='fr') Français
+        
 
     #block-explorer
     script(src='/js/block-explorer.bundle.js')
