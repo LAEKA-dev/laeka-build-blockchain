@@ -4,7 +4,7 @@ This project showcases the use of blockchain in pet insurance domain for claim p
 each participant will own its own peer node. The insurance peer is the insurance company providing the insurance for the products and it is responsible for processing the claims. Validator peer is responsible for verifying the therapy claims. Vet Service peer is responsible for providint the efficient health care for the pets while pet woner peer join the ecosystem by choosing and can customize his personnal pet Insurance product.
 
 ## Application Workflow Diagram
-![Workflow](https://github.com/Laeka-Pets/Laeka/blob/Laeka-Pets-patch-1/images/app-arch.PNG)
+![Workflow](https://github.com/LAEKA-dev/laeka-build-blockchain/blob/master/images/app-arch.PNG)
 
 1. The blockchain operator creates  Kubernetes cluster (<b>32CPU, 32RAM, 3 workers recommended</b>) and an Hyperledger Fabric network.
 2. The operator installs and instantiates the smart contract on the network.
