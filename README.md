@@ -1,4 +1,4 @@
-# Laeka Blockchain Pet Insurance Product
+# Laeka Blockchain Pet Insurance Network
 
 This project showcases the use of blockchain in pet insurance domain for claim processing and traçability. In this application, we have four participants, namely insurance, validator, Vet service and the pet owner. Furthermore,
 each participant will own its own peer node. The insurance peer is the insurance company providing the insurance for the products and it is responsible for processing the claims. Validator peer is responsible for verifying the therapy claims. Vet Service peer is responsible for providint the efficient health care for the pets while pet woner peer join the ecosystem by choosing and can customize his personnal pet Insurance product.
@@ -22,23 +22,20 @@ each participant will own its own peer node. The insurance peer is the insurance
 * [Kubernetes](https://kubernetes.io/) Kubernetes (K8s) is an open-source system for automating deployment, scaling, and management of containerized applications.
 ## How does it work ?
 
-![Global view](https://github.com/Laeka-Pets/Laeka/blob/Laeka-Pets-patch-1/images/Global%20arch.jpg)
+![Global view](https://github.com/LAEKA-dev/laeka-build-blockchain/blob/master/images/Global%20arch.jpg)
 
-![Subscribe process](https://github.com/Laeka-Pets/Laeka/blob/Laeka-Pets-patch-1/images/subscribe%20process.jpg)
-
-
-![Therapy Process](https://github.com/Laeka-Pets/Laeka/blob/Laeka-Pets-patch-1/images/therapy%20process%20english.jpg)
-
-![Claim Process](https://github.com/Laeka-Pets/Laeka/blob/Laeka-Pets-patch-1/images/Claim%20process.jpg)
+![Subscribe process](https://github.com/LAEKA-dev/laeka-build-blockchain/blob/master/images/subscribe%20process.jpg)
 
 
-# WARNING: This repository is no longer maintained :warning:
+![Therapy Process](https://github.com/LAEKA-dev/laeka-build-blockchain/blob/master/images/therapy%20process%20english.jpg)
 
-> This repository will not be updated. I will check periodically for pull requests, but do not expect a quick response. 
+![Claim Process](https://github.com/LAEKA-dev/laeka-build-blockchain/blob/master/images/Claim%20process.jpg)
 
-*Read this in other languages: [中国語](README-cn.md),[日本語](README-ja.md).*
 
-# Build Blockchain Insurance Application
+# WARNING: This repository is no longer maintained and we changed protocol :warning:
+
+  
+# Build Blockchain Insurance Application HLF 
 
 This project showcases the use of blockchain in insurance domain for claim processing. In this application, we have four participants, namely insurance, police, repair shop and the shop. Furthermore,
 each participant will own its own peer node. The insurance peer is the insurance company providing the insurance for the products and it is responsible for processing the claims. Police peer is responsible for verifying the theft claims. Repair shop peer is responsible for repairs of the product while shop peer sells the products to consumer. The value of running this network on the IBM Blockchain Platform is that 
@@ -84,17 +81,6 @@ Service, and the operator installs and instantiates the smart contract on the ne
 * [React](https://reactjs.org/) A declarative, efficient, and flexible JavaScript library for building user interfaces.
 * [Docker](https://www.docker.com/) Docker is a computer program that performs operating-system-level virtualization. It was first released in 2013 and is developed by Docker, Inc.
 
-# Watch the Video - Multiple Organization and Multiple Peer App Demo #1 - Intro 
-
-[![](images/part1.png)](https://www.youtube.com/watch?v=Lr3EFKayP0o)
-
-# Watch the Video - IBM Blockchain Tutorial: Multiple Organization and Multiple Peer App Demo #2 - Build Nodes 
-
-[![](images/part2.png)](https://www.youtube.com/watch?v=wi6i28vRigs)
-
-# Watch the Video - Multiple Organization and Multiple Peer App Demo #1 - Intro 
-
-[![](images/part3.png)](https://www.youtube.com/watch?v=3dRckqZvFqw)
 
 ## Prerequisites
 We find that Blockchain can be finicky when it comes to installing Node. We want to share this [StackOverflow response](https://stackoverflow.com/questions/49744276/error-cannot-find-module-api-hyperledger-composer) - because many times the errors you see with Compose are derived in having installed either the wrong Node version or took an approach that is not supported by Compose:
